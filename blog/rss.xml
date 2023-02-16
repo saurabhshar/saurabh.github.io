@@ -4,7 +4,7 @@
         <title>Saurabh's Notes Blog</title>
         <link>https://saurabhshar.github.io/blog</link>
         <description>Saurabh's Notes Blog</description>
-        <lastBuildDate>Thu, 16 Feb 2023 22:20:15 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Feb 2023 22:22:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Setup correct Java version for Maven]]></title>
             <link>https://saurabhshar.github.io/blog/maven-java-version</link>
             <guid>https://saurabhshar.github.io/blog/maven-java-version</guid>
-            <pubDate>Thu, 16 Feb 2023 22:20:15 GMT</pubDate>
+            <pubDate>Thu, 16 Feb 2023 22:22:18 GMT</pubDate>
             <description><![CDATA[I have multiple java version installed on my m/c. I realized during maven build I was getting below error specific to version 11.0.2.]]></description>
             <content:encoded><![CDATA[<p>I have multiple java version installed on my m/c. I realized during maven build I was getting below error specific to version 11.0.2.</p><blockquote><p>[ERROR]<!-- --> Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (java-compile) on project server-impl: Compilation failure
 <!-- -->[ERROR]<!-- --> An exception has occurred in the compiler (11.0.2). Please file a bug against the Java compiler via the Java bug reporting page (<a href="http://bugreport.java.com" target="_blank" rel="noopener noreferrer">http://bugreport.java.com</a>) after checking the Bug Database (<a href="http://bugs.java.com" target="_blank" rel="noopener noreferrer">http://bugs.java.com</a>) for duplicates. Include your program and the following diagnostic in your report. Thank you.   </p></blockquote><p>[ERROR]<!-- --> java.lang.NullPointerException.<br>
@@ -31,16 +31,16 @@ Maven home: /usr/local/Cellar/maven/3.9.0/libexec
 Java version: 11.0.2, vendor: Oracle Corporation, runtime: /Users/s.sharma.5/.sdkman/candidates/java/11.0.2-open
 Default locale: en_DE, platform encoding: UTF-8
 OS name: "mac os x", version: "10.16", arch: "x86_64", family: “mac"</p><p>Maven picks java version from JAVA_HOME, so set it up correctly. </p><p>List all available jdk versions:  </p><p><strong>% /usr/libexec/java_home -V</strong><br>
-<!-- -->Matching Java Virtual Machines (3):
-19.0.2 (x86_64) "Homebrew" - "OpenJDK 19.0.2" /usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home
-16.0.1 (x86_64) "Oracle Corporation" - "Java SE 16.0.1" /Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
-11.0.18 (x86_64) "Homebrew" - "OpenJDK 11.0.18" /usr/local/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home
-/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home</p><p><strong>% set export JAVA_HOME=/usr/local/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home</strong>.   </p><p><strong>% mvn -version</strong>.<br>
-<!-- -->Apache Maven 3.9.0 (9b58d2bad23a66be161c4664ef21ce219c2c8584)
-Maven home: /usr/local/Cellar/maven/3.9.0/libexec
-Java version: 11.0.18, vendor: Homebrew, runtime: /usr/local/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home
-Default locale: en_DE, platform encoding: UTF-8
-OS name: "mac os x", version: "11.6.1", arch: "x86_64", family: “mac"</p>]]></content:encoded>
+<!-- -->Matching Java Virtual Machines (3):<br>
+<!-- -->19.0.2 (x86_64) "Homebrew" - "OpenJDK 19.0.2" /usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home<br>
+<!-- -->16.0.1 (x86_64) "Oracle Corporation" - "Java SE 16.0.1" /Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home<br>
+<!-- -->11.0.18 (x86_64) "Homebrew" - "OpenJDK 11.0.18" /usr/local/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home<br>
+<!-- -->/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home.  </p><p><strong>% set export JAVA_HOME=/usr/local/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home</strong>.   </p><p><strong>% mvn -version</strong>.<br>
+<!-- -->Apache Maven 3.9.0 (9b58d2bad23a66be161c4664ef21ce219c2c8584).<br>
+<!-- -->Maven home: /usr/local/Cellar/maven/3.9.0/libexec<br>
+<!-- -->Java version: 11.0.18, vendor: Homebrew, runtime: /usr/local/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home<br>
+<!-- -->Default locale: en_DE, platform encoding: UTF-8<br>
+<!-- -->OS name: "mac os x", version: "11.6.1", arch: "x86_64", family: “mac"</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
