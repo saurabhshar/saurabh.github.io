@@ -39,19 +39,18 @@ Maven picks java version from JAVA_HOME, so set it up correctly.
 List all available jdk versions:  
 
 **% /usr/libexec/java_home -V**  
-Matching Java Virtual Machines (3):
-    19.0.2 (x86_64) "Homebrew" - "OpenJDK 19.0.2" /usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home
-    16.0.1 (x86_64) "Oracle Corporation" - "Java SE 16.0.1" /Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
-    11.0.18 (x86_64) "Homebrew" - "OpenJDK 11.0.18" /usr/local/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home
-/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home
-
+Matching Java Virtual Machines (3):  
+    19.0.2 (x86_64) "Homebrew" - "OpenJDK 19.0.2" /usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home  
+    16.0.1 (x86_64) "Oracle Corporation" - "Java SE 16.0.1" /Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home  
+    11.0.18 (x86_64) "Homebrew" - "OpenJDK 11.0.18" /usr/local/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home  
+/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home.  
 
 
 **% set export JAVA_HOME=/usr/local/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home**.   
 
 **% mvn -version**.  
-Apache Maven 3.9.0 (9b58d2bad23a66be161c4664ef21ce219c2c8584)
-Maven home: /usr/local/Cellar/maven/3.9.0/libexec
-Java version: 11.0.18, vendor: Homebrew, runtime: /usr/local/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home
-Default locale: en_DE, platform encoding: UTF-8
-OS name: "mac os x", version: "11.6.1", arch: "x86_64", family: “mac"
+Apache Maven 3.9.0 (9b58d2bad23a66be161c4664ef21ce219c2c8584).  
+Maven home: /usr/local/Cellar/maven/3.9.0/libexec  
+Java version: 11.0.18, vendor: Homebrew, runtime: /usr/local/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home  
+Default locale: en_DE, platform encoding: UTF-8  
+OS name: "mac os x", version: "11.6.1", arch: "x86_64", family: “mac"  
