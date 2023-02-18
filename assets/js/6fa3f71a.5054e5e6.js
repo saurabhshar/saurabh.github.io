@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaurabh_github_io=self.webpackChunksaurabh_github_io||[]).push([[7195],{7575:a=>{a.exports=JSON.parse('{"label":"Java Version","permalink":"/blog/tags/java-version","allTagsPath":"/blog/tags","count":1}')}}]);
