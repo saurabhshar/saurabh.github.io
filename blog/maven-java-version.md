@@ -1,7 +1,19 @@
+---
+slug: maven-java-version
+title: Setup correct Java version for Maven
+authors:
+  name: Saurabh Sharma
+  title: Admin
+  url: https://github.com/saurabhshar
+  image_url: https://avatars.githubusercontent.com/u/37309661?v=4
+tags: [Maven,Java Version]
+---
+
 # Setup correct Java version for Maven
 
 I have multiple java version installed on my m/c. I realized during maven build I was getting below error specific to version 11.0.2.
 
+<!--truncate-->
 
 >[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (java-compile) on project server-impl: Compilation failure
 [ERROR] An exception has occurred in the compiler (11.0.2). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program and the following diagnostic in your report. Thank you.   
