@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaurabh_github_io=self.webpackChunksaurabh_github_io||[]).push([[7915],{9742:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/engineering-manager","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
