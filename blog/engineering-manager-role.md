@@ -13,6 +13,8 @@ General Responsibilities of EM: Following are high level roles and responsibilit
 
 During the interviews, I've found below list very useful to outline my own roles & responsibilites in current organization and provide a good coverage with examples. 
 
+<!--truncate-->
+
 1. People Management
      - Develop and retain individuals
      - Manage low/high performers + Performance Management
