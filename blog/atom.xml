@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://saurabhshar.github.io/blog</id>
     <title>Saurabh's Notes Blog</title>
-    <updated>2023-02-18T21:40:20.000Z</updated>
+    <updated>2023-02-18T21:43:20.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://saurabhshar.github.io/blog"/>
     <subtitle>Saurabh's Notes Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Engineering Manager Role]]></title>
         <id>https://saurabhshar.github.io/blog/engineering-manager-role</id>
         <link href="https://saurabhshar.github.io/blog/engineering-manager-role"/>
-        <updated>2023-02-18T21:40:20.000Z</updated>
+        <updated>2023-02-18T21:43:20.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
         <author>
@@ -25,7 +25,7 @@
         <title type="html"><![CDATA[Setup correct Java version for Maven]]></title>
         <id>https://saurabhshar.github.io/blog/maven-java-version</id>
         <link href="https://saurabhshar.github.io/blog/maven-java-version"/>
-        <updated>2023-02-18T21:40:20.000Z</updated>
+        <updated>2023-02-18T21:43:20.000Z</updated>
         <summary type="html"><![CDATA[I have multiple java version installed on my m/c. I realized during maven build I was getting below error specific to version 11.0.2.]]></summary>
         <content type="html"><![CDATA[<p>I have multiple java version installed on my m/c. I realized during maven build I was getting below error specific to version 11.0.2.</p><blockquote><p>[ERROR]<!-- --> Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (java-compile) on project server-impl: Compilation failure
 <!-- -->[ERROR]<!-- --> An exception has occurred in the compiler (11.0.2). Please file a bug against the Java compiler via the Java bug reporting page (<a href="http://bugreport.java.com" target="_blank" rel="noopener noreferrer">http://bugreport.java.com</a>) after checking the Bug Database (<a href="http://bugs.java.com" target="_blank" rel="noopener noreferrer">http://bugs.java.com</a>) for duplicates. Include your program and the following diagnostic in your report. Thank you.   </p></blockquote><p>[ERROR]<!-- --> java.lang.NullPointerException.<br>
@@ -99,20 +99,6 @@ OS name: "mac os x", version: "10.16", arch: "x86_64", family: “mac"</p><p>Mav
             <uri>https://github.com/endiliey</uri>
         </author>
         <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://saurabhshar.github.io/blog/first-blog-post</id>
-        <link href="https://saurabhshar.github.io/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
-        </author>
-        <category label="hola" term="hola"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
 </feed>
