@@ -76,7 +76,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Tech-Notes', position: 'left'},
           {
             href: 'https://github.com/saurabhshar',
             label: 'GitHub',
@@ -93,15 +93,35 @@ const config = {
               {
                 label: 'Tutorial',
                 to: '/docs/intro',
+              },{
+                label: 'Articles',
+                to: 'https://campuscoding.com/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Profiles',
             items: [
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/cc_saurabh',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/saurabh-sharma-10443a14/',
+              },
+            ],
+          },
+          {
+            title: 'Tools',
+            items: [
+              {
+                label: 'Docusaurus',
+                to: 'https://docusaurus.io/',
+              },
+              {
+                label: 'GitHub Pages',
+                href: 'https://pages.github.com/',
               },
             ],
           },
