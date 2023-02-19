@@ -14,7 +14,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div style="text-align:left;margin-left:60px">
+        <div>
           📐 Software Architecture <br/>
           👨‍💻 Engineering Leadership <br/>
           👨‍🎨 DevOps
