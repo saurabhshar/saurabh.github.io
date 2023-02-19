@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://saurabhshar.github.io/blog</id>
     <title>Saurabh's Notes Blog</title>
-    <updated>2023-02-19T20:24:09.000Z</updated>
+    <updated>2023-02-19T20:42:41.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://saurabhshar.github.io/blog"/>
     <subtitle>Saurabh's Notes Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Dev Articles]]></title>
         <id>https://saurabhshar.github.io/blog/dev-articles</id>
         <link href="https://saurabhshar.github.io/blog/dev-articles"/>
-        <updated>2023-02-19T20:24:09.000Z</updated>
+        <updated>2023-02-19T20:42:41.000Z</updated>
         <summary type="html"><![CDATA[Some interesting articles I read recently -]]></summary>
         <content type="html"><![CDATA[<p>Some interesting articles I read recently -</p><ol><li>Code Reviews<ul><li><a href="https://refactoring.fm/p/code-reviews?s=w" target="_blank" rel="noopener noreferrer">https://refactoring.fm/p/code-reviews?s=w</a></li></ul></li><li>Dev Tools</li></ol>]]></content>
         <author>
@@ -24,7 +24,7 @@
         <title type="html"><![CDATA[Engineering Manager Role]]></title>
         <id>https://saurabhshar.github.io/blog/engineering-manager-role</id>
         <link href="https://saurabhshar.github.io/blog/engineering-manager-role"/>
-        <updated>2023-02-19T20:24:09.000Z</updated>
+        <updated>2023-02-19T20:42:41.000Z</updated>
         <summary type="html"><![CDATA[General Responsibilities of EM: Following are high level roles and responsibilities for an EM. A new EM might not have to serve all of these duties.]]></summary>
         <content type="html"><![CDATA[<p>General Responsibilities of EM: Following are high level roles and responsibilities for an EM. A new EM might not have to serve all of these duties. </p><p>During the interviews, I've found below list very useful to outline my own roles &amp; responsibilites in current organization and provide a good coverage with examples. </p><ol><li>People Management<ul><li>Develop and retain individuals</li><li>Manage low/high performers + Performance Management</li><li>Manage Team's career growth</li><li>Manage difficult employees</li><li>Conflict Management</li><li>Helping Others/ Unblocking</li><li>Build credibility with the reports</li></ul></li><li>Project Management<ul><li>Handle trade-offs</li><li>Change management</li><li>Handle behind schedule projects</li><li>Balance limitations with customer requirements</li><li>Project on deadline - manage roadblocks nd constrains</li><li>Manage design &amp; tech challenges</li><li>Run retro (brainstorm retro ideas + create project retro)</li></ul></li><li>Manage Individuals<ul><li>Run 1:1</li><li>Give &amp; receive difficult feedback</li><li>Handle poor performers</li><li>Setup process &amp; framework for team to hit hiring goals</li><li>Coach &amp; develop individuals</li><li>Looking &amp; screening people/resume</li><li>Goal setting for individuals</li></ul></li><li>Management &amp; Team Executions<ul><li>Setting up team for success</li><li>Balance future dev &amp; tech debt</li><li>Create quarterly OKR</li><li>Lead the team through re-org</li><li>Anticipate potential problems &amp; develop preventive measures</li><li>Receive guidance from manager &amp; get buy in from the team</li><li>Disagreement with the founder/VP</li></ul></li><li>Cross Functional Communication<ul><li>Explain engg. concepts to non-tech ppl</li><li>Derive alignments across multiple team/stakeholder</li><li>feedback from cross-functional peer - strengths/area of development</li><li>Persuade others to see things your way(using presentation skills)</li><li>Resolve conflict b/w engg. and cross functional partner</li></ul></li></ol>]]></content>
         <author>
@@ -38,7 +38,7 @@
         <title type="html"><![CDATA[Setup correct Java version for Maven]]></title>
         <id>https://saurabhshar.github.io/blog/maven-java-version</id>
         <link href="https://saurabhshar.github.io/blog/maven-java-version"/>
-        <updated>2023-02-19T20:24:09.000Z</updated>
+        <updated>2023-02-19T20:42:41.000Z</updated>
         <summary type="html"><![CDATA[I have multiple java version installed on my m/c. I realized during maven build I was getting below error specific to version 11.0.2.]]></summary>
         <content type="html"><![CDATA[<p>I have multiple java version installed on my m/c. I realized during maven build I was getting below error specific to version 11.0.2.</p><blockquote><p>[ERROR]<!-- --> Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (java-compile) on project server-impl: Compilation failure
 <!-- -->[ERROR]<!-- --> An exception has occurred in the compiler (11.0.2). Please file a bug against the Java compiler via the Java bug reporting page (<a href="http://bugreport.java.com" target="_blank" rel="noopener noreferrer">http://bugreport.java.com</a>) after checking the Bug Database (<a href="http://bugs.java.com" target="_blank" rel="noopener noreferrer">http://bugs.java.com</a>) for duplicates. Include your program and the following diagnostic in your report. Thank you.   </p></blockquote><p>[ERROR]<!-- --> java.lang.NullPointerException.<br>
