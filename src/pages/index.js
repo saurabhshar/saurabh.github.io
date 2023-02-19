@@ -15,8 +15,9 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          📐 Solutions Architect
-          👨‍💻 Engineering Lead
+          📐 Software Architecture <br/>
+          👨‍💻 Engineering Leadership <br/>
+          👨‍🎨 DevOps
         </div>
       </div>
     </header>

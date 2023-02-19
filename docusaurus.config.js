@@ -88,14 +88,14 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Learning',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Tech-Notes',
+                to: '/blog',
               },{
-                label: 'Articles',
-                to: 'https://campuscoding.com/',
+                label: 'Campus Coding',
+                href: 'https://campuscoding.com/',
               },
             ],
           },
@@ -128,10 +128,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Tech-Notes',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/saurabhshar',
