@@ -4,15 +4,27 @@
         <title>Saurabh's Notes Blog</title>
         <link>https://saurabhshar.github.io/blog</link>
         <description>Saurabh's Notes Blog</description>
-        <lastBuildDate>Sat, 25 Feb 2023 21:44:18 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Feb 2023 21:46:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[SOLID principles]]></title>
+            <link>https://saurabhshar.github.io/blog/SOLID principles</link>
+            <guid>https://saurabhshar.github.io/blog/SOLID principles</guid>
+            <pubDate>Sat, 25 Feb 2023 21:46:01 GMT</pubDate>
+            <description><![CDATA[The SOLID principles are a set of design principles for object-oriented programming that aim to make software systems more maintainable, flexible, and scalable:]]></description>
+            <content:encoded><![CDATA[<p>The SOLID principles are a set of design principles for object-oriented programming that aim to make software systems more maintainable, flexible, and scalable:</p><p>S - Single Responsibility Principle<br>
+<!-- -->O - Open/Closed Principle<br>
+<!-- -->L - Liskov Substitution Principle<br>
+<!-- -->I - Interface Segregation Principle<br>
+<!-- -->D - Dependency Inversion Principle  </p><p>Each principle addresses a specific aspect of software design and helps developers create more robust and extensible systems.</p><ul><li><p>Single Responsibility Principle: A class should have only one reason to change, meaning that it should have only one responsibility or job within the system. This principle helps keep classes focused, maintainable, and easy to understand.</p></li><li><p>Open/Closed Principle: Software entities should be open for extension but closed for modification. This means that you should be able to add new functionality to a system without having to modify existing code. This principle helps prevent unintentional side effects when making changes to a system.</p></li><li><p>Liskov Substitution Principle: Subtypes should be substitutable for their base types, meaning that you should be able to use a subclass wherever its parent class is expected without causing any errors or unexpected behavior. This principle helps ensure that objects in a system behave consistently and can be easily replaced or extended.</p></li><li><p>Interface Segregation Principle: Clients should not be forced to depend on interfaces they don't use. This principle suggests that interfaces should be broken down into smaller, more specific ones so that clients can implement only what they need. This helps reduce complexity and coupling in a system.</p></li><li><p>Dependency Inversion Principle: High-level modules should not depend on low-level modules, but both should depend on abstractions. This principle suggests that you should depend on abstractions (interfaces) rather than concrete implementations. This helps create more flexible and modular systems that are easier to test and maintain.</p></li></ul>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Dev Articles]]></title>
             <link>https://saurabhshar.github.io/blog/dev-articles</link>
             <guid>https://saurabhshar.github.io/blog/dev-articles</guid>
-            <pubDate>Sat, 25 Feb 2023 21:44:18 GMT</pubDate>
+            <pubDate>Sat, 25 Feb 2023 21:46:01 GMT</pubDate>
             <description><![CDATA[Some interesting articles I read recently -]]></description>
             <content:encoded><![CDATA[<p>Some interesting articles I read recently -</p><ol><li>Code Reviews<ul><li><a href="https://refactoring.fm/p/code-reviews?s=w" target="_blank" rel="noopener noreferrer">https://refactoring.fm/p/code-reviews?s=w</a></li></ul></li><li>Dev Tools</li></ol>]]></content:encoded>
             <category>Dev</category>
@@ -21,7 +33,7 @@
             <title><![CDATA[Engineering Manager Role]]></title>
             <link>https://saurabhshar.github.io/blog/engineering-manager-role</link>
             <guid>https://saurabhshar.github.io/blog/engineering-manager-role</guid>
-            <pubDate>Sat, 25 Feb 2023 21:44:18 GMT</pubDate>
+            <pubDate>Sat, 25 Feb 2023 21:46:01 GMT</pubDate>
             <description><![CDATA[General Responsibilities of EM: Following are high level roles and responsibilities for an EM. A new EM might not have to serve all of these duties.]]></description>
             <content:encoded><![CDATA[<p>General Responsibilities of EM: Following are high level roles and responsibilities for an EM. A new EM might not have to serve all of these duties. </p><p>During the interviews, I've found below list very useful to outline my own roles &amp; responsibilites in current organization and provide a good coverage with examples. </p><ol><li>People Management<ul><li>Develop and retain individuals</li><li>Manage low/high performers + Performance Management</li><li>Manage Team's career growth</li><li>Manage difficult employees</li><li>Conflict Management</li><li>Helping Others/ Unblocking</li><li>Build credibility with the reports</li></ul></li><li>Project Management<ul><li>Handle trade-offs</li><li>Change management</li><li>Handle behind schedule projects</li><li>Balance limitations with customer requirements</li><li>Project on deadline - manage roadblocks nd constrains</li><li>Manage design &amp; tech challenges</li><li>Run retro (brainstorm retro ideas + create project retro)</li></ul></li><li>Manage Individuals<ul><li>Run 1:1</li><li>Give &amp; receive difficult feedback</li><li>Handle poor performers</li><li>Setup process &amp; framework for team to hit hiring goals</li><li>Coach &amp; develop individuals</li><li>Looking &amp; screening people/resume</li><li>Goal setting for individuals</li></ul></li><li>Management &amp; Team Executions<ul><li>Setting up team for success</li><li>Balance future dev &amp; tech debt</li><li>Create quarterly OKR</li><li>Lead the team through re-org</li><li>Anticipate potential problems &amp; develop preventive measures</li><li>Receive guidance from manager &amp; get buy in from the team</li><li>Disagreement with the founder/VP</li></ul></li><li>Cross Functional Communication<ul><li>Explain engg. concepts to non-tech ppl</li><li>Derive alignments across multiple team/stakeholder</li><li>feedback from cross-functional peer - strengths/area of development</li><li>Persuade others to see things your way(using presentation skills)</li><li>Resolve conflict b/w engg. and cross functional partner</li></ul></li></ol>]]></content:encoded>
             <category>EM</category>
@@ -31,7 +43,7 @@
             <title><![CDATA[Setup correct Java version for Maven]]></title>
             <link>https://saurabhshar.github.io/blog/maven-java-version</link>
             <guid>https://saurabhshar.github.io/blog/maven-java-version</guid>
-            <pubDate>Sat, 25 Feb 2023 21:44:18 GMT</pubDate>
+            <pubDate>Sat, 25 Feb 2023 21:46:01 GMT</pubDate>
             <description><![CDATA[I have multiple java version installed on my m/c. I realized during maven build I was getting below error specific to version 11.0.2.]]></description>
             <content:encoded><![CDATA[<p>I have multiple java version installed on my m/c. I realized during maven build I was getting below error specific to version 11.0.2.</p><blockquote><p>[ERROR]<!-- --> Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (java-compile) on project server-impl: Compilation failure
 <!-- -->[ERROR]<!-- --> An exception has occurred in the compiler (11.0.2). Please file a bug against the Java compiler via the Java bug reporting page (<a href="http://bugreport.java.com" target="_blank" rel="noopener noreferrer">http://bugreport.java.com</a>) after checking the Bug Database (<a href="http://bugs.java.com" target="_blank" rel="noopener noreferrer">http://bugs.java.com</a>) for duplicates. Include your program and the following diagnostic in your report. Thank you.   </p></blockquote><p>[ERROR]<!-- --> java.lang.NullPointerException.<br>
