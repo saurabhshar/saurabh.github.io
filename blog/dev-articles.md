@@ -16,5 +16,6 @@ Some interesting articles I read recently -
 1. Code Reviews
      - https://refactoring.fm/p/code-reviews?s=w
 2. Dev Tools
-
+3. Testing
+     - Testing Pyramid: https://martinfowler.com/articles/practical-test-pyramid.html
       
