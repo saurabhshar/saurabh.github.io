@@ -17,3 +17,5 @@ Each principle addresses a specific aspect of software design and helps develope
 * Interface Segregation Principle: Clients should not be forced to depend on interfaces they don't use. This principle suggests that interfaces should be broken down into smaller, more specific ones so that clients can implement only what they need. This helps reduce complexity and coupling in a system.
 
 * Dependency Inversion Principle: High-level modules should not depend on low-level modules, but both should depend on abstractions. This principle suggests that you should depend on abstractions (interfaces) rather than concrete implementations. This helps create more flexible and modular systems that are easier to test and maintain.
+
+*Addition of new line by Rajat Belwal.
